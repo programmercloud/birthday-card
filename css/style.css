@@ -54,44 +54,44 @@ body {
   position: absolute;
 }
 
-.balloonOne,
-.balloonTwo,
-.balloonThree,
-.balloonFour {
+.balloon-1,
+.balloon-2,
+.balloon-3,
+.balloon-4 {
   position: absolute;
   width: 85px;
   height: 95px;
   border-radius: 50%;
 }
 
-.balloonOne {
+.balloon-1 {
   background-color: rgba(255, 40, 90, 0.7);
   left: -10px;
   top: 50px;
 }
 
-.balloonTwo {
+.balloon-2 {
   background-color: rgba(9, 215, 160, 0.7);
   left: 50px;
   top: 20px;
 }
 
-.balloonThree {
+.balloon-3 {
   background-color: rgba(255, 186, 26, 0.7);
   left: 110px;
   top: 50px;
 }
 
-.balloonFour {
+.balloon-4 {
   background-color: rgba(12, 122, 159, 0.7);
   left: 170px;
-  top: 20px;
+  top: 50px;
 }
 
-.balloonOne:before,
-.balloonTwo:before,
-.balloonThree:before,
-.balloonFour:before {
+.balloon-1::before,
+.balloon-2::before,
+.balloon-3::before,
+.balloon-4::before {
   content: "";
   position: absolute;
   width: 1px;
@@ -101,10 +101,10 @@ body {
   left: 43px;
 }
 
-.balloonOne:after,
-.balloonTwo:after,
-.balloonThree:after,
-.balloonFour:after {
+.balloon-1::after,
+.balloon-2::after,
+.balloon-3::after,
+.balloon-4::after {
   content: "";
   position: absolute;
   border-right: 7px solid transparent;
@@ -113,20 +113,20 @@ body {
   left: 37px;
 }
 
-.balloonOne:after {
+.balloon-1::after {
   border-bottom: 10px solid #ff3e6b;
 }
 
-.balloonTwo:after {
+.balloon-2::after {
   border-bottom: 10px solid #04b183;
 }
 
-.balloonThree:after {
+.balloon-3::after {
   border-bottom: 10px solid #ffc94c;
 }
 
-.balloonFour:after {
-  border-bottom: 10px solid #13a9db;
+.balloon-4::after {
+  border-bottom: 10px solid #13a9bd;
 }
 
 .cardInside {
